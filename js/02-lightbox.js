@@ -9,6 +9,7 @@ const makeGallery = (elements) => {
     <a class="gallery__link" href="${element.original}">
     <img
     class="gallery__image"
+    loading = "lazy"
     src="${element.preview}"
     alt="${element.description}"
     />
